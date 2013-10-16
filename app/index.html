@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>cvstatic</title>
-        <meta name="description" content="">
+        <title>ToddyCat</title>
+        <meta name="description" content="Create multiple résumés and control who sees them.">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css(.tmp) styles/main.css -->
@@ -19,43 +19,45 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+        <div id="wrap">
+          <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <span class="navbar-brand logo">ToddyCat</span>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav pull-right">
+                  <li>
+                    <a class="logout-link" href="login/">Sign out</a>
+                  </li>
                 </ul>
-                <h3 class="text-muted">cvstatic</h3>
+              </div>
             </div>
-
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-            </div>
-
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-
-
-
+          </div>
+          
+          <div class="container">
+            <div class="page">
+              <div class="row" id="loginform">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <p>Dashboard goes here</p>
                 </div>
+              </div>
             </div>
-
-            <div class="footer">
-                <p>♥ from the Yeoman team</p>
-            </div>
-
+          </div>
         </div>
-
+        
+        <div id="footer">
+          <div class="container">
+            <p class="text-muted credit">
+              <a href="privacy">Privacy Policy</a> &middot;
+              <a href="terms">Terms of Use</a> &middot;
+              &copy; 2013 ToddyCat
+            </p>
+          </div>
+        </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
@@ -63,22 +65,8 @@
         <!-- endbower -->
         <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js(.tmp) scripts/coffee.js -->
-        <script src="scripts/hello.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->

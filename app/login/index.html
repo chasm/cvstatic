@@ -1,0 +1,95 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Sign in :: ToddyCat</title>
+        
+        <meta name="description" content="Create multiple résumés and control who sees them.">
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="../styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrap">
+          <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <a class="navbar-brand logo" href="login/">ToddyCat</a>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="page">
+              <div class="row" id="loginform">
+                <div class="col-lg-4 col-lg-offset-4">
+                  <form accept-charset="UTF-8" action="../" method="post" role="form">
+                    <legend>Please sign in</legend>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="form-group">
+                          <label for="user_email">Email address</label>
+                          <input class="form-control" id="user_email" name="user[email]" placeholder="Email address" type="text">
+                        </div>
+                        <div class="form-group">
+                          <label for="user_password">Password</label>
+                          <input class="form-control" id="user_password" name="user[password]" placeholder="Password" type="password">
+                        </div>
+                        <div class="form-group">
+                          <input class="btn btn-primary" name="commit" type="submit" value="Sign in">
+                          <button class="btn btn-warning" id="toggle-password-field">Show Password</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="footer">
+          <div class="container">
+            <p class="text-muted credit">
+              <a href="../privacy/">Privacy Policy</a> &middot;
+              <a href="../terms/">Terms of Use</a> &middot;
+              &copy; 2013 ToddyCat
+            </p>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
