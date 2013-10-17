@@ -8,7 +8,7 @@
 	"phone": "666.333.4444",
 	"email": "bob@roberts.com",
 	"objective": "To obtain work in a highly-paid sinecure somewhere in the entertainment or food and beverage industries.",
-	"education": [
+	"schools": [
 		{
 			"school": "Watson Elementary School",
 			"started_on": ISODate("1987-09-01T00:00:00.000Z"),
@@ -24,7 +24,7 @@
 			]
 		}
 	],
-	"work": [
+	"jobs": [
 		{
 			"position": "Product Tester",
 			"company": "Wonka Industries",
