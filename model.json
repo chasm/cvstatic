@@ -1,0 +1,59 @@
+{
+	"name": "Bob R. Roberts",
+	"address": [
+		"123 Rocker Road",
+		"Punkville, Texas 00666",
+		"U.S.A."
+	],
+	"phone": "666.333.4444",
+	"email": "bob@roberts.com",
+	"objective": "To obtain work in a highly-paid sinecure somewhere in the entertainment or food and beverage industries.",
+	"education": [
+		{
+			"school": "Watson Elementary School",
+			"started_on": ISODate("1987-09-01T00:00:00.000Z"),
+			"left_on": ISODate("1999-05-01T00:00:00.000Z"),
+			"address": [
+				"221B Baker Street",
+				"London, England"
+			],
+			"highest_grade_completed": "9th",
+			"graduated": false,
+			"awards": [
+				"Most Likely to Fail"
+			]
+		}
+	],
+	"work": [
+		{
+			"position": "Product Tester",
+			"company": "Wonka Industries",
+			"started_on": ISODate("2011-06-01T00:00:00.000Z"),
+			"left_on": ISODate("2011-07-01T00:00:00.000Z"),
+			"address": [
+				"7 Willy Woods",
+				"Hershey, Pennsylvania 55555"
+			],
+			"duties": [
+				"Hiding from the boss",
+				"Pilfering company property"
+			],
+			"reason_for_leaving": "Unexplained bathroom incident"
+		}
+	],
+	"honors": [
+		{
+			"title": "Most Likely to Offend",
+			"awarded_on": ISODate("2003-02-01T00:00:00.000Z")
+		}
+	],
+	"skills": [
+		"Able to avoid work even when the boss is watching"
+	],
+	"references": [
+		{
+			"name": "Mick Jagger",
+			"email": "mick@therollingstones.com"
+		}
+	]
+}
